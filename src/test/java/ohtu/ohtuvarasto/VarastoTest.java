@@ -122,7 +122,7 @@ public class VarastoTest {
     @Test
     public void negatiivinenOttoEiMuutaSaldoa() {
         varasto.otaVarastosta(-2);
-        assertEquals(1, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
