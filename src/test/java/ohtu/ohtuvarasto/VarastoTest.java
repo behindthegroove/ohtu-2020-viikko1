@@ -129,4 +129,6 @@ public class VarastoTest {
     public void toStringToimiiOikein() {
         assertTrue(varasto.toString().equals("saldo = 0.0, vielä tilaa 10.0"));
     }
+    
+    // joku muutos tehtävään 11
 }
